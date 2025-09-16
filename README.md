@@ -13,3 +13,27 @@ Tasks:
    2. Setup python and virtual environment for this app, remember to use the fixed `pyproject.toml`.
    3. How to run this app and how to access it without portforwarding.
 7. Push all the changes to your own repository on Github, and provide a link to your own repo in your submission in the last.
+
+## Setup Instructions
+   1. Install Python:
+```
+sudo apt update
+sudo apt install python3
+sudo apt intall python3-pip
+```
+   2. Setup A Virtual Enviornment:
+```
+python3 -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install e .
+```
+   3. Run the Application:
+```
+python main.py
+```
+   To Access The Application Use the URL:
+```
+http://127.0.0.1:10030/
+```
+   
