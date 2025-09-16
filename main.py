@@ -12,7 +12,7 @@ app = dash.Dash(
 )
 app.title = "Clinical Analytics Dashboard"
 
-server = app.server
+server = app.server(port=10030)
 app.config.suppress_callback_exceptions = True
 
 
